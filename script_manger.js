@@ -7,7 +7,7 @@ const time_out = 3600;
 
 var sec = 0;
 
-const delay = (amount) => {
+async function delay(amount) {
   return new Promise((resolve) => {
     setTimeout(resolve, amount);
   });
