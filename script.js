@@ -52,7 +52,7 @@ const draw = seconds => {
             .done(data => draw(300000))
             .error(data => draw(300000));
         })
-.fail(data => draw(0));
+        .fail(data => draw(0));
     }, seconds);
 }
 draw(0);
