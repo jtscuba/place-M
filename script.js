@@ -57,9 +57,6 @@
 // }
 // draw(0);
 
-// 
-const modhash = window.reddit.modhash;
-
 // Time constants
 const five_minutes_in_ms = 300000;
 
