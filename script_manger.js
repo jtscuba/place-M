@@ -75,7 +75,7 @@ const advance_current_loc = () => {
 
 const draw_pixel = (delay) => {
    setTimeout( () => {
-      check_pixel(curent_x, current_y);
+      check_pixel(current_x, current_y);
    }, delay);
 }
 
