@@ -1,6 +1,6 @@
 // refresh 
 var run_counter = 0;
-const script_file_loc = "https://gitlab.eecs.umich.edu/bgimby/place-M/raw/master/script.js";
+const script_file_loc = "";
 const draw = null;
 const time_out = 3600;
 
@@ -25,7 +25,7 @@ setInterval(() => {
 
    run_counter++;
 
-   if (run_counter % time_out == 0 and draw != null) {
+   if (run_counter % time_out == 0 && draw != null) {
       clearInterval(draw);
       load_script();
    }
