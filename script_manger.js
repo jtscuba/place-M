@@ -140,7 +140,7 @@ setInterval(() => {
       if (sec == 0) {
          
          // fetch new logo array
-         $.getJSON("M.json", ( data ) => {
+         $.getJSON("https://raw.githack.com/jtscuba/place-M/master/M.json", ( data ) => {
 
             // fetch changes if any
             logo_colors = data.logo_colors;
