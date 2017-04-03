@@ -125,7 +125,7 @@ const draw_pixel = () => {
             })
 
             // rate limiting
-            sleep(50);
+            await delay(50);
         }
     }
 }

@@ -1,8 +1,17 @@
-// refresh 
+// refresh
+const modhash = window.reddit.modhash;
 var run_counter = 0;
-const script_file_loc = "";
+const script_file_loc = "https://raw.githack.com/jtscuba/place-M/master/script.js";
 const draw = null;
 const time_out = 3600;
+
+var sec = 0;
+
+const delay = (amount: number) => {
+  return new Promise((resolve) => {
+    setTimeout(resolve, amount);
+  });
+};
 
 const load_script = () => {
    $.getScript(script_file_loc)
@@ -25,7 +34,7 @@ setInterval(() => {
 
    run_counter++;
 
-   if (run_counter % time_out == 0 && draw != null) {
+   if ((run_counter % time_out) == 0 && draw != null) {
       clearInterval(draw);
       load_script();
    }
