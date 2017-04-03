@@ -106,7 +106,7 @@ const draw_pixel = () => {
             .fail(err => {
                 console.log(err);
                 return;
-            })
+            });
 
             // rate limiting
             await delay(50);
