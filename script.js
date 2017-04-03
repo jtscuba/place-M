@@ -95,7 +95,6 @@ const logo_colors =
 const x_min = 70;
 const x_max = x_min + logo_colors[0].length;
 
-
 const y_min = 802;
 const y_max = y_min + logo_colors.length;
 
