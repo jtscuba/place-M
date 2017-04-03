@@ -1,6 +1,6 @@
 // refresh 
 var run_counter = 0;
-const script_file_loc = "";
+const script_file_loc = "https://gitlab.eecs.umich.edu/bgimby/place-M/raw/master/script.js";
 const draw = null;
 const time_out = 3600;
 
