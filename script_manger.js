@@ -62,10 +62,10 @@ var current_y = y_min;
 
 const advance_current_loc = () => {
    // update current search location
-   x++;
+   current_x++;
    if (current_x == x_max) {
       current_x = x_min;
-      y++;
+      current_y++;
 
       if (current_y == y_max) {
          current_y = y_min;
